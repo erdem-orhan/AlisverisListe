@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlisverisListesi</string>
+    <string name="title_home">Liste Ekle</string>
+    <string name="title_dashboard">Listeler</string>
+    <string name="title_notifications">Ayarlar</string>
+    <string name="alarm">alarm</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:background="#208E24AA"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#11FDD7D6"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Amounttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="liste adi"
+            android:textColor="#D8000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exptime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_place_24"
+            android:gravity="left"
+            android:text="yer"
+            android:textColor="#A8000000"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statustext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left|center_vertical"
+            android:text="tarih"
+            android:textColor="#C3000000"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/statustext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_access_time_24"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left|center_vertical"
+            android:text="saat"
+            android:textColor="#C3000000"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/urunadettext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_pie_chart_24"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left|center_vertical"
+            android:text="adet"
+            android:textColor="#C3000000"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="Paylaş"
+            android:textSize="14sp"
+            app:backgroundTint="#00897B" />
+
+        <Button
+            android:id="@+id/duzenlebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="Düzenle"
+            android:textSize="13dp"
+            app:backgroundTint="#7986CB" />
+
+        <Button
+            android:id="@+id/silbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="Sil"
+            android:textSize="13dp"
+            app:backgroundTint="#E57373" />
+    </LinearLayout>
+
+</LinearLayout>
